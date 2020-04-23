@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level2</title>
+    <style>
+        .open-popupx{
+            float: contour;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #e51200;
+            color: #f1f1f1;
+            font-family: Consolas;
+            border-style: none;
+
+        }
+        .open-popupx:hover {
+            background: #ff0023;
+            font-size: 16px;
+            cursor: pointer;
+            animation-name: color-change2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        .open-popupx:focus{
+            background: #111111;
+            color: #f1f1f1;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .open-popupx:after{
+            background: #00ae0f;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="popup2" style="display: none; width: 60%; margin: 0 auto; text-align: center ; margin-top: -100px">
+       <h1 class="header1" style="padding: 10px; background: #a80d00; color: #f1f1f1; font-family: Consolas">The answer is easy. Take your phone out of your pocket and look at the logo. You will need this code. Do not ever forget it. Do not under estimate the 48bit</h1>
+        <button class="open-popupx" data-popup="#popup3" style="float: contour">Let me to escape</button>
+    </div>
+</body>
+</html>

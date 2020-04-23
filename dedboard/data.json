@@ -1,0 +1,17 @@
+{
+	"data" : {
+	"values" : [620, 311, 653, 275, 520, 342,61,421,146,78,621,300],
+	"marginBetweenBars" : 3,
+	"barColors" : ["#96DC00", "#FFC800", "#96DC00", "#FFC800", "#96DC00", "#FFC800","#FF6000","#FFC800","#FF6000","#FF6000","#96DC00","#FFC800"],
+	"labelColors" : ["#B4B4B4"],
+	"labelFont" : "Verdana",
+	"labelText" : ["Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6","Level 7","Level 8","Level 9","Level 10","Level 11","Level 12"],
+	"labelPaddingLeft" : 10,
+	"height" : 400,
+	"width" : 450,
+	"backgroundColor" : "#445566",
+	"label" : true,
+	"value" : true,
+	"labelWidth" : 50
+	}
+}

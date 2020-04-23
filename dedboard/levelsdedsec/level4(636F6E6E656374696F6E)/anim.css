@@ -1,0 +1,38 @@
+@keyframes brightnessfade {
+
+    100% {
+        filter: brightness(20);
+        filter: contrast(20);
+        -webkit-filter: brightness(20);
+        -webkit-filter: contrast(20);
+
+    }
+}
+
+@keyframes colorrandom {
+   0%  {
+        background: black;
+
+    }
+    20% {
+        background: #ff0023;
+
+    }
+    40% {
+        background: #ffc000;
+
+    }
+    60% {
+        background: #00ff87;
+
+    }
+    80% {
+        background: #ff00a9;
+
+    }
+    100% {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+
+    }
+}
+

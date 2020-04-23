@@ -1,0 +1,43 @@
+@keyframes brightnessfade {
+    0%   {
+        filter: brightness(20);
+        filter: contrast(20);
+        -webkit-filter: brightness(20);
+        -webkit-filter: contrast(20);
+
+    }
+    50%  {
+        filter: brightness(10);
+        filter: contrast(10);
+        -webkit-filter: brightness(10);
+        -webkit-filter: contrast(10);
+
+    }
+    90% {
+        filter: brightness(0);
+        filter: contrast(0);
+        -webkit-filter: brightness(0);
+        -webkit-filter: contrast(0);
+
+    }
+}
+
+@keyframes colorrandom {
+    0%   {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+
+    }
+    50%  {
+        background: black;
+
+    }
+    75% {
+        background: #ff0023;
+
+    }
+    100% {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+
+    }
+}
+

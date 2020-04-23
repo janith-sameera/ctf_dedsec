@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+
+    color: #fff;
+    font-family: Hacked;
+    font-size: 22px;
+}
+
+.body{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    width: auto;
+    height: auto;
+    background-image: url(img/T0oUic.gif);
+    background-size: cover;
+    animation-name: brightnessfade;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    -webkit-filter: blur(5px);
+    -webkit-filter: brightness(10%);
+    z-index: 0;
+}
+
+.grad{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 255px);
+    z-index: 2;
+}
+
+.header div{
+    float: left;
+    color: #fff;
+    font-family: Hacked;
+    font-size: 55px;
+    font-weight: 200;
+}
+
+.header div span{
+    color: #fa003e !important;
+}
+
+.login{
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.dashboard{
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+.login input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: #ff0026;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    color: #000000;
+    font-family: Hacked;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+.login input[type=email]{
+    width: 250px;
+    height: 30px;
+    background: #ff0026;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    color: #000000;
+    font-family: Hacked;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.login input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: #ff001f;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    color: #000000;
+    text-align: center;
+    font-family: Hacked;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=submit]{
+    width: 260px;
+    height: 35px;
+    background: #fdfffb;
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #000000;
+    font-family: Hacked;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.grad{
+    animation-name: colorrandom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.login input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.login input[type=button]:active{
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}

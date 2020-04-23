@@ -1,0 +1,48 @@
+					Follow This Steps and Find The Way
+
+
+Task 01: 
+
+Key values: 3,2,1,2,4
+
+Code: 4,73,3,2,12,42,61,4,27,61,18,9,41,5,1,5,85,95,7,3,3,14,34,2,78,3,3,27,48,6,6,34,29,8,8,45,3,21,4,6,13,8,7,3
+
+Answer: 6,8,9,10,12,6,54,34,90,24,
+
+
+Using the above keys and obtain the above answer according to some pattern.
+So you will have to find which you can obtain the answer from any number set.
+
+------------------------------------------------------------------------------------------------------------------
+
+Task 02: 
+
+RNA sequence: 
+ 
+p,b,j,o,,b,h,m,d,w,x,d,l,p,i,r,g,s,v,k,u,r,f,s,p,,i,g,d,h,n,w,q,a,i,n,u,i,w,s,u,r,m,z,u,i,p,q,y,l,j,q,l,o,v,y,s,a,n ,z,o,h,b,w,e,c,o,o,k,m,e,v,i,h,g,o,k,k,j,w,b,i,t,x,e,,g,c,y,j,n,l,,m,l,l,d,c,o,o,j,v,w,r,l,g,m,w,u,m,g,f,m,d,v,l, d,s,l,s,,e,j,s,l,c,r,k,e,n,,m,h,m,z,n,c,q,q, 
+ 
+Message: hdwxlhvinp
+
+Next you will have to obtain the respective character of the respective number from the below RNA sequence,
+by combining newly obtained characters together you can obtain the final message.
+
+
+
+
+
+
+
+
+*******************************Find the flag***********************************
+
+Key :
+
+    3,2,1,2,4
+
+code :
+
+    1076,811,144,3,1169,409,1059,944,1078,639,162,4459,150,464,644,585,775,899,520,352,982,1227,198 ,183,938,1002,254,6,556,465,319,1617,330,1184,846,2409,1039,313,543,720,847,374,196,507,282,783, 1246,418,1072,425,340,691,224,1041,271,535,528,253,1057,314,468,727,179,306,1149,1121,1059,121, 395,511,94,1683,395,882,825,589,993,444,453,1187,665,1137,56,772,598,178,525,1161,298,977,134,2 381,25,135,737,1580,98,1142,1024,725,255,901,245,1073,1134,199,452,2,522,1127,854,926,1201,1109 ,158,3,994,60,792,730,806,922,556,1074,1020,343,651,905,624,1106,485,480,1236,1069,1150,646,890, 920,215,725,145,918,879,723,713,1039,700,216,100,1148,851,2000,794,13,272,889,1210,555,575,1074 ,728,176,29,757,500,1129,667,2305,525,1020,50,1773,1131,426,747,916,785,968,1097,1013,1053,923, 600,636,641,259,1125,1067,367,602,1202,1843,1141,34,1231,1653,476,1142,329,1086,984,416,686,72 6,119,404,350,1150,328,1123,114,497,410,394,997,1066,561,14,244,1040,420,518,297,723,1077,1209, 743,1592,1227,641,1095,1808,447,182,83,1589,926,477,218
+
+RNA sequence :
+
+    b,b,e,z,19. ,w,he,c,P,P,t,th, ,g,o,h,o,v,d,c,b,x,g,j,i,b,b,m,e,q,d,r,d,w,b,y,d,m,n,y,h,e,q,x,p,o,x,i,z,z, r,a,o,t,a,g,t,l,s,c,i,t,l,o,f,a,g,v,b,t,i,e,i,j,g,n,c,l,c,k,j,m,q,h,u,l,y,w,j,q,p,p,x,b,z,l,r,s,i,p, r,l,i,w,d,i,j,l,a,h,z,y,i,r,h,f,h,z,v,f,r,b,b,q,y,e,r,u,i,b,n,v,x,k,c,q,e,g, ,q,e,x,s,o, ,y,n,c,h,e, i, ,o,a,d,y,n,p,e,n,v,e,l,w,o,n,x,u,t,u,l,a,c,y,k,l,s,u,c,h,y,a,q,p,s,z,p,n, ,y,t,b,l,o,e,f,c,o,x,n, g,m,d,e, ,e,s,m,a,u,r,d,u,p,r,j,n,x,u,d,a,r,k,o,h,n,t,v,c,a, ,o,l,m,j,v,n,t,y,l,b,s,r,a,r, ,d,l,y,c, r,y,x,a,a,x,v, ,a,d,q,q,u,g,z,j,w,h,b,g,c, ,s,m,j,s,q,j,P,y,r,p,w, ,d,h,f,s,r,v,m,z,m,j,f,c,v,i,b, ,x, j,x,p,b,j,o, ,b,h,m,d,w,x,d,l,p,i,r,g,s,v,k,u,r,f,s,p, ,i,g,d,h,n,w,q,a,i,n,u,i,w,s,u,r,m,z,u,i,p,q, y,l,j,q,l,o,v,y,s,a,n,z,o,h,b,w,e,c,o,o,k,m,e,v,i,h,g,o,k,k,j,w,b,i,t,x,e, ,g,c,y,j,n,l, ,m,l,l,d,c, o,o,j,v,w,r,l,g,m,w,u,m,g,f,m,d,v,l,d,s,l,s, ,e,j,s,l,c,r,k,e,n, ,m,h,m,z,n,c,q,q,h,c,h,i,u,y, ,j,u, j,f,n,z,y,j,o,a,h,r,f,e,z,r,e,s,h,p,f,s,w,x,f,j,z,l,p,n,w,r,x,c,f,m,l,m,k,d,r,t,a,j,k,b,h,q,i,b,t,o, y,t,p,a,p,x,y,a,n,l,t,f,d,a,q,w,n,g,g,b,b,x,k,f,h,j,b,l,e,k,d,j,l,k,w,d,y,g,t,s,r,i,j,e,l,j,n,z,e,w, y,j,l,l,m,y,p,w,t,p,a, ,g,l,c,p,r,i,g,g,k,g,d,e,c, ,z,i,v,x,q,f,i, ,q, ,z,p,r,i,o,g,t,e,h,x,c,f,m,n,  ,q,l,t,s,s,s,h,l,o,d, ,t,h,x,p,o,o,z,h,j,h,l,s,o,a,y,r,y,f,x,s,k,u,h,a, ,u,z,c,n,d,o,f,w,j,z,r,t,l, g,d,i,z,f,b,a,l,s,d,c,f,r,g,h,t,b,e,c,x,j,q,c,t,a,i,u,t,P,f,r,v,z,b,o,a,t,v,s,m,v,q,y,r,t,o,l,l,z,x,b, f,y,x,b,c,t,e,m,m,x,y,a,k,p,f,q,y,u,z,g,e,f,i,z,n,v,n,b,g,r,e,a,s,p,s,g,j,g,q,a,x,y, ,a,y,y,u,o,z,r, n,d,y,l,i,t,l,b,j,f,s,j,c,e,y,v,s,d,r,l,t,c,f, ,p,w,e,v,p,m,m,b,s,s,z,n,v,z,d,x,k,x,z,z,l,d,o,i,p, , o,h,z,x,s,u,t,q,s,z,w,f, ,a,l,x,s,w,i,b,m,m,w,b,e,y,x,z,e,r,z, ,p,l,i, ,o,j,p,r,a,t,a,f,h,l,d,m,y,v, d,v,x,t,q,g,j,g,l,x, ,o,t,q,k,a,p,f,r,n,t,v,t,w,z,h,w,z,w,n,m,v,o,i,o,t,h,s,e,i,a,o,c,t,i,w,u,e,d,v, r, ,f,o,h, ,a,l,f,y,x,l,k,d,l,h,f,q,c,q,y,z,q,y,t,k,n,x,d,k,l,h,o,w,u,n,b,w,d,a,b,y,f,c,t,u, ,s,o,f, g,y,f,q,x,z, ,a,o,g,b,c,m,h,y,t,d,y,z,b,e,u,x,b,h,s,k,y,q,c,w,y,q,v,w,g,s,r, ,w,n,s,j,y,i,d,a,p,p,m, c,f,y,e,d,l, ,q,h,z,u,l,m,f,f,p,x,y,z,y,k,x,w,e,m,y,r,n,l,r,l,a,f,d,g,v,d,b,p,s,t,m,j,e,y,i,n,p,s,u, x,d,w,a,f,w,q,j,u,v,a,c,i,m,x,j,s,e,e,v,f,r,w,P,y,g,r,t,x,z,n,p,g,e,t,b,e,g,e,t,a,z,j,p,u,q,x,e,t,o,c, n,f,a,m,r,z,c,c,l,u,l,m,j,t,r,i,z,q,m,w,f,i,z,y,g,t,a,l,c,k,a,u,y,r,r,q,i,i,a,h,t,g,g, ,s,n,y,z,q,y, m,x,h,l,j,d,e,t, ,q,k,g,a,q,c,r,y,a,t,h,o,p,c,f,r,m,s,j, ,j,n,u,q,z,v,r,v,v,b,g,x,g,g,w,k,q,g,i,w,d, d,o,v,j,j,g,g,f,j,l,c,c,a,k,s,k,f,g,p,l,v,f,h,v,p,e,a,t,b,e,m, ,f,b,y,s,i,c,w,w,x,o,q,g,t,d,u,a,p,u, e,o,o, ,g,t,e,z,w,y,b,v,o,e,f,x,a,q,h,h,q,x,u,t,z,i,i,a,x,v,u,m,z,j,h,v,o,p,n,l,g,f,f,d,g,j,d, ,t, , v,p,o,p,i,p,y,x,y,o, ,z,l,l,i,h,i,e,t,c,m,t,x,k,y,d,k,q,s,k,o,n,x,d,s,c,p,e,d,d,w,g,e,l,v,n,w,h,v,q, g,n, ,z,u,m,g,y,h,p,i,b,l,g,g,k,r,y,b,r,v, , ,v,z,y,l,k,g,m,q,t,m,y,fP,,u,r,r,j,y,a,h,c,f,l,t,i,u,d,f,

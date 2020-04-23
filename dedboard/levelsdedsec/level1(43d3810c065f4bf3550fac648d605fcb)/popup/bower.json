@@ -1,0 +1,16 @@
+{
+  "name": "jquery-fullscreen-popup",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nurislamov/jquery-fullscreen-popup",
+  "authors": [
+    "Timur Nurislamov"
+  ],
+  "description": "Simple fullscreen popup plugin",
+  "main": "/dist/jquery-fullscreen-popup.js",
+  "keywords": [
+    "plugin",
+    "popup",
+    "jquery"
+  ],
+  "license": "MIT"
+}
