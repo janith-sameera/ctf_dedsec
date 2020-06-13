@@ -62,7 +62,6 @@ function phase_and_level(btn_id){
 
     if(btn_id===1){
 
-
         document.getElementById("phase").innerHTML = "phase 01";
         document.getElementById("phase_description").innerHTML = "Something here about phase 01ggghghghcghcghcghcghcghcgcghghcgccffffffffffffffffffffffffffffffffffff";
         document.getElementById("level").innerHTML = "Level 01";
@@ -74,8 +73,9 @@ function phase_and_level(btn_id){
         typeWriterLevel1();
         document.getElementById("story_line").src = "images/storyline1.gif";
         var elmnt = document.getElementById("m5");
-        elmnt.scrollIntoView();
 
+        elmnt.scrollIntoView();
+        window.open("../login_duplicate.php", "_blank");
     }
     if(btn_id===2){
         document.getElementById("phase").innerHTML = "phase 01";
@@ -90,6 +90,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "";
         typeWriterLevel2();
         elmnt.scrollIntoView();
+        window.open("levelsdedsec/level2(43d3810c065f4bf3550fac648d605fcb)/dedsecL2.html", "_blank");
     }
     if(btn_id===3){
         document.getElementById("phase").innerHTML = "phase 01";
@@ -103,6 +104,7 @@ function phase_and_level(btn_id){
         document.getElementById("story_line").src = "images/storyline1.gif";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
+        window.open("../level_3.php", "_blank");
 
     }
     if(btn_id===4){
@@ -117,7 +119,7 @@ function phase_and_level(btn_id){
         document.getElementById("story_line").src = "images/sl2.gif";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("levelsdedsec/level4(636F6E6E656374696F6E)/dedsecL4.html", "_blank");
     }
 
     if(btn_id===5){
@@ -131,7 +133,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 05";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("../level_5.php", "_blank");
     }
 
     if(btn_id===6){
@@ -145,7 +147,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 06";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("levelsdedsec/Level6/CtOsIO.html", "_blank");
     }
 
     if(btn_id===7){
@@ -159,7 +161,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 07";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("../level_7.php", "_blank");
     }
 
     if(btn_id===8){
@@ -173,7 +175,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 08";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("levelsdedsec/Level8/CtOsIO.html", "_blank");
     }
 
     if(btn_id===9){
@@ -187,7 +189,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 09";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("../level_9.php", "_blank");
     }
 
     if(btn_id===11){
@@ -201,7 +203,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 11";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("../level_11.php", "_blank");
     }
 
     if(btn_id===10){
@@ -215,7 +217,7 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 10";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("levelsdedsec/Level10/CtOsIO.html", "_blank");
     }
 
     if(btn_id===12){
@@ -229,6 +231,6 @@ function phase_and_level(btn_id){
         document.getElementById("level_content").innerHTML = "Something here about Level 12";
         var elmnt = document.getElementById("m5");
         elmnt.scrollIntoView();
-
+        window.open("levelsdedsec/Level12/CtOsIO.html", "_blank");
     }
 }

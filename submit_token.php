@@ -3,10 +3,10 @@ session_start();
 if (isset($_SESSION['User'])){
     if ((time()-$_SESSION['start'])>600){
         session_destroy();
-        header("location:dedboard/Welcome/login_duplicate.php");
+        header("location:dedboard/Welcome/login.html");
     }
 }else{
-    header("location:dedboard/Welcome/login_duplicate.php");
+    header("location:dedboard/Welcome/login.html");
 }
 include 'db.php';
 $database=new db();
@@ -21,11 +21,11 @@ $database=new db();
         $token=$row['maximum']+1;
     }
     ?>
-    <title>Welcome to the level</title>
+    <title>Submit form</title>
     <link rel="stylesheet" href="../../vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="../../vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
-
+    <link rel="shortcut icon" type="image/x-icon" href="dedboard/images/x.gif">
     <link rel="stylesheet" href="css1/style.css">
 <body>
 <div>
@@ -33,22 +33,25 @@ $database=new db();
         <div class="auth-form-light text-left p-5">
             <?php
                 $user=$_SESSION['User'];
-                $result=$database->Search("select MAX(token) AS maximum from user_has_token where user='$user'");
+                $result=$database->Search("select MAX(token) from user_has_token where user='$user'");
                 if ($row=$result->fetch(PDO::FETCH_ASSOC)){
-                    $token=$row['maximum']+1;
+                    $token=$row['MAX(token)']+2;
                     echo "<input type='text' id='token_id' value=$token hidden>";
                     echo "<label class='form-control form-control-lg'>Please submit level ".$token." flag :</label>";
+
                 }
             ?>
 <!--            <label class='form-control form-control-lg'>Please submit the flag :</label>-->
     <div class="pt-3">
         <div class="form-group">
-            <input class="form-control form-control-lg" type="text" name="token" id="token">
+                <input class="form-control form-control-lg" type="text" name="token" id="token">
         </div>
         <div class="mt-3">
             <input class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit" name="level_1" id="level_1" value="Submit">
         </div>
         <span id="result" style="color: red;font-size: 20px;"></span>
+        <br>
+        <h3 style="color: red"><strong>Alex Never Forgets What's He Find.That's Why He Succeed When Hacking NASA.</strong></h3>
     </div>
         </div>
     </div>

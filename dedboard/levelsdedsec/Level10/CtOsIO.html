@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shame On you..!</title>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="popup/dist/jquery.fullscreen-popup.js"></script>
+
+    <style>
+
+        .body{
+            animation-name: brightnessfademain;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            -webkit-filter: blur(5px);
+            -webkit-filter: brightness(10%);
+        }
+
+        .open-popup{
+            float: contour;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #3f0009;
+            color: #f1f1f1;
+            font-family: Consolas;
+            border-style: none;
+            animation-name: move3;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+
+        }
+        .open-popup:hover {
+            background: #ff0023;
+            font-size: 16px;
+            cursor: pointer;
+            animation-name: color-change2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        .open-popup:focus{
+            background: #111111;
+            color: #f1f1f1;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .open-popup:after{
+            background: #00ae0f;
+        }
+
+        .open-popupx{
+            float: contour;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #e51200;
+            color: #f1f1f1;
+            font-family: Consolas;
+            border-style: none;
+
+        }
+        .open-popupx:hover {
+            background: #ff0023;
+            font-size: 16px;
+            cursor: pointer;
+            animation-name: color-change2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        .open-popupx:focus{
+            background: #111111;
+            color: #f1f1f1;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .open-popupx:after{
+            background: #00ae0f;
+        }
+
+
+
+        @keyframes color-change {
+            from {background-color: #A80D00}
+            to {background-color: #ff0005;
+                filter: invert(100%);}
+            from {background-color: #ff0005;}
+            to {background-color: #A80D00}
+        }
+
+        @keyframes color-change2 {
+            from {}
+            to {
+                filter: invert(100%);}
+        }
+
+        @keyframes move {
+            0%   { left:3px; top:2px;}
+            80% { right:1px; bottom:2px;}
+            100% { right:3px; top:0px;}
+        }
+
+        @keyframes movex {
+            0%   {right:0px; top:0px;}
+            100% { left:500px; top:0px;}
+        }
+
+        .header1{
+            background-color: #A80D00;
+            animation-name: color-change;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        body{
+
+        }
+
+        .image{
+            position: relative;
+            animation-name: move2;
+            animation-duration:5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move2 {
+            0%   { height: auto;
+                width: 0%;
+                z-index: 5}
+
+            100% { width: 250%; height: auto; z-index:  5}
+        }
+
+        @keyframes move3 {
+            0%   { background-color: #ff0023; color: #f1f1f1}
+            50% { background: transparent; color: #111111}
+            100% { background: #ff0005;color: #111111}
+        }
+
+
+
+        #go:hover{
+            position: relative;
+            animation-name: movex;
+            animation-duration:5s;
+            cursor: not-allowed;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+
+</head>
+<body  style="padding: 200px;  background: url(https://i.pinimg.com/originals/8b/ce/64/8bce64cc2a5ccb20c952c5a7c77dd932.gif) ;  background-repeat: repeat; background-size: 400px   ">
+
+
+<div class="maind" style="width: 50%; margin: 0 auto; text-align: center ; background: rgba(0,0,0,0.9); padding-bottom: 20px;box-shadow: 0px 0px 10px rgba(24,24,24,0.93);">
+    <h1 class="header1" style="padding: 10px; background: #a80d00; color: #f1f1f1; font-family: Consolas">Master privilages</h1>
+    <p style="background: #2b2b2b; color: #f1f1f1; font-family: Consolas; padding: 10px">We are close to gain master privilages of CtOs now. In this task you need to find the private keys of two main servers in CtOs.
+    these servers use asymetric cryptogrphical method called "Deffie Helman Key exchange". You should find the private keys of both servers.
+    We captured prime modulus of the key exchange, generator and servers1 public key with initial Primary key that they use to encrypt the initial byte of data. you should find the private keys of each servers and server2 public key.
+        <br>
+
+    <h4 style="background: #ff00a9; color: #f1f1f1; font-family: Consolas; padding: 10px">initial_primary_key = 6;</h4><br>
+    <h4 style="background: #2b2b2b; color: #f1f1f1; font-family: Consolas; padding: 10px">server1_public_key = 5;</h4><br>
+    <h4 style="background: #2b2b2b; color: #f1f1f1; font-family: Consolas; padding: 10px">server2_public_key = ??? ;</h4><br>
+    <h4 style="background: #2b2b2b; color: #f1f1f1; font-family: Consolas; padding: 10px">prime_modulus = 17;</h4><br>
+    <h4 style="background: #2b2b2b; color: #f1f1f1; font-family: Consolas; padding: 10px">initial_generator = 3;</h4><br>
+
+
+        </p>
+    <BR>
+
+</div>
+
+
+<div id="popup2" style="display: none; width: 60%; margin: 0 auto; text-align: center ; margin-top: -100px">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("name").value;
+            document.getElementById("name-two").innerHTML = x;
+        }
+    </script>
+    <h1 class="header1" style="padding: 10px; background: #a80d00; color: #f1f1f1; font-family: Consolas"><b id="name-two" style="background: #96dc00" ></b><br> Why do WE hide behind our masks? Why do they hide behind their masks? Drop their corporate lawyers and government connections and we'll drop our hoods. They point at DedSec, label us the boogeyman while they root through your closet. We're not asking you to be friends. We're asking you to turn on the flashlight. Take a look under the bed. Because monsters are real and you're looking in the wrong place.</h1>
+    <button class="open-popupx" data-popup="#popup3" style="float: contour">How to kill them?</button>
+</div>
+
+<div id="popup3" style="display: none; width: 640px ;" >
+    <h1 style="color: #f1f1f1;font-family: Consolas">Use your backdoor</h1>
+    <p style="color: #f1f1f1;font-family: Consolas">This is the final task that you should complete for Qualify to join with DedSec. If you could find the DedSec secret ip address you can pass this mission </p>
+    <form action="Ouch.html" ><button class="open-popupx" onclick="location.href = 'Ouch.html';" style="float: contour" >What should I do..?</button></form>
+</div>
+
+</body>
+</html>
+

@@ -210,11 +210,6 @@ include "../check.php";
                 <h5 id="level_content" style="background: #171819;color: #ffffff; padding: 10px; font-size: 14px"> In this field we are going to describe to the user about the phase that related to selected level. As a example if user has selected level 01, since level 01 is in the phase one , we describe the 1st phase as :
                     Qualification levels to the DedSec ;Capture the Flag (CTF) is a competition that related to information security where the participants will be test on a various of security challenges like web penetration testing, reverse engineering, cryptography, steganography and few others more. Participants must get the â€œflagâ€ to gain their points. So, the team who have the highest point at the end of the game will be the winner;
                 </h5>
-                <a href="../login_duplicate.php"><div class="hack_btn" style="width: 20%; float: right" >
-                    <b id="x" >
-                        Hack now!
-                    </b>
-                </div></a>
 
             </div>
             <div class="m-6" style="background: #222222">
@@ -302,7 +297,7 @@ include "../check.php";
 
                             </div>
                         </div>
-                        
+
 
 
                     </div>

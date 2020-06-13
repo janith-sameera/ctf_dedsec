@@ -9,6 +9,7 @@ $(document).ready(function () {
     ('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{
 
     }))
-    swal("Find me !", "Try to find where this alert is coming from !!!", "info");
-    //flag>>>>>> "bGV2ZWxfMV90b2tlbg=="
+    swal("Find me !", "submission form is in the ghost city where the alert comes from !!!", "info");
+    //try this>>>>>> "c3VibWl0X3Rva2Vu"
+    //token>>>>>>"d2UgYXJlIG1hbnk="
 });

@@ -2,13 +2,12 @@
 session_start();
 if (isset($_SESSION['User'])){
     if ((time()-$_SESSION['start'])>600){
-session_destroy();
-header("location:dedboard/Welcome/login.html");
-}
+        session_destroy();
+        header("location:dedboard/Welcome/login.html");
+    }
 }else{
-header("location:dedboard/Welcome/login.html");
+    header("location:dedboard/Welcome/login.html");
 }
-include "check.php";
 ?>
 
 <!DOCTYPE html>

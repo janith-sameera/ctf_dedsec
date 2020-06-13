@@ -8,7 +8,6 @@ if (isset($_SESSION['User'])){
 }else{
     header("location:dedboard/Welcome/login.html");
 }
-include "check.php";
 ?>
 <html>
 <head>
@@ -16,7 +15,8 @@ include "check.php";
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
     <script type="text/javascript" src="js/java_file.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/icon/logo.png" type="image/png">
+    <link rel="shortcut icon" type="image/x-icon" href="dedboard/images/x.gif">
+
 </head>
 
 <script>
